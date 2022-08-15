@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>API Weather App</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+   
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+   
+    <link href='./assets/style/style.css' rel='stylesheet' type='text/css' media='screen'>
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+   
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.29.4/moment.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+
+    <script src='./assets/js/script.js'></script>
+</head>
+
+<body>
+
+<!-- most recent search -->
+<button id="previousCity" onclick="previousCity()">previous search</button>
+
+
+<!-- search bar -->    
+<div class="card">
+
+    <div class="search">
+        <input type="text" class="search-bar" placeholder="Search">
+        <button onclick="getCity()"> <img src="./assets/images/search_FILL0_wght400_GRAD0_opsz48.svg" ></button>
+    </div>
+
+ <!-- weather -->
+<div class="weather">
+
+    <div id="currentDate">date</div>
+    <h2 class="city">Weather in</h2>
+    <h1 class="temp">°</h1>
+<div class="flex">
+    <img src="http://openweathermap.org/img/wn/04d.png" alt="current weather" class="icon" />
+    <div class="description"></div>
+</div>
+    <div class="humidity">Humidity:</div>
+    <div class="wind">Wind speed:</div>
+    <div class="uvindex">UV Index: </div>
+
+</div>
+
+</div>
+
+
+<container class="forecast">
+
+
+    <!-- 5 day forecast -->
+    
+    <div class="forecastCard">
+        <div id="forecastDate0">date</div>
+        <img src="http://openweathermap.org/img/wn/04d.png" alt="current weather" id="forecastIcon0" />
+        <h3 id="forecastTemp0">°</h3>
+        <div id="forecastHumidity0">Humidity:</div>
+        <div id="forecastWind0">Wind speed:</div>
+    </div>
+ 
+    <div class="forecastCard">
+        <div id="forecastDate1">date</div>
+        <img src="http://openweathermap.org/img/wn/04d.png" alt="current weather" id="forecastIcon1" />
+        <h3 id="forecastTemp1">°</h3>
+        <div id="forecastHumidity1">Humidity:</div>
+        <div id="forecastWind1">Wind speed:</div>
+    </div>
+
+    
+    <div class="forecastCard">
+        <div id="forecastDate2">date</div>
+        <img src="http://openweathermap.org/img/wn/04d.png" alt="current weather" id="forecastIcon2" />
+        <h3 id="forecastTemp2">°</h3>
+        <div id="forecastHumidity2">Humidity:</div>
+        <div id="forecastWind2">Wind speed:</div>
+    </div>
+
+ 
+     <div class="forecastCard">
+        <div id="forecastDate3">date</div>
+        <img src="http://openweathermap.org/img/wn/04d.png" alt="current weather" id="forecastIcon3" />
+        <h3 id="forecastTemp3">°</h3>
+        <div id="forecastHumidity3">Humidity:</div>
+        <div id="forecastWind3">Wind speed:</div>
+    </div>
+
+    
+    
+    <div class="forecastCard">
+        <div id="forecastDate4">date</div>
+        <img src="http://openweathermap.org/img/wn/04d.png" alt="current weather" id="forecastIcon4" />
+        <h3 id="forecastTemp4">°</h3>
+        <div id="forecastHumidity4">Humidity:</div>
+        <div id="forecastWind4">Wind speed:</div>
+    </div>
+   
+    
+    </container>
+
+    
+</body>
+
+</html>
