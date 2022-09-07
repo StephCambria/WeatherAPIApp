@@ -5,27 +5,33 @@
 
 ____
 
-GIVEN a weather dashboard with form inputs
+# API Weather App
+![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC_BY--SA_4.0-lightgrey.svg)
+## Table of Contents
+1. [Description](#description)
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [Contributing](#contributing)
+5. [Tests](#tests)
+6. [License](#license)
+7. [Questions](#questions)
 
-WHEN I search for a city
+## Description
+Users can search any city and get the current weather (including humidity, wind speed, and UV index) as well as a five day forecast for that city.
+## Installation
+By clicking the link to the deployed site.
+## Usage
+The core functionality is used via Open Weather Map's One Call API.
+## Contributing
+N/A
+## Tests
+no
+## License
+This application is licensed under the Creative Commons license.
 
-THEN I am presented with current and future conditions for that city and that city is added to the search history
-
-WHEN I view current weather conditions for that city
-
-THEN I am presented with the city name, the date, an icon representation of weather conditions, the temperature, the humidity, the wind speed, and the UV index
-
-WHEN I view the UV index
-
-THEN I am presented with a color that indicates whether the conditions are favorable, moderate, or severe
-
-WHEN I view future weather conditions for that city
-
-THEN I am presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, the wind speed, and the humidity
-
-WHEN I click on a city in the search history
-
-THEN I am again presented with current and future conditions for that city
+## Questions
+You can find me [HERE](https://github.com/StephCambria) on Github
+You can email me at steph.cambria.art@gmail.com if you have any additional questions.
 
 ____
 
